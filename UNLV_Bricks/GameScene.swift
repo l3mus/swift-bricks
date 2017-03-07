@@ -245,7 +245,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         if(isGameWon() ){
             let display = childNode(withName: "lbl_winlose") as! SKLabelNode
             
-            display.text = "You Win, Welcome to UNLV"
+            display.text = "You Win"
         }
     }
     

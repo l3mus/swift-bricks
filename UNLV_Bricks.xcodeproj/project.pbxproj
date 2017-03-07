@@ -17,13 +17,12 @@
 		903B493F1E6893010040BD4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903B493D1E6893010040BD4B /* LaunchScreen.storyboard */; };
 		903B494A1E6893020040BD4B /* UNLV_BricksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B49491E6893020040BD4B /* UNLV_BricksTests.swift */; };
 		903B49551E6893020040BD4B /* UNLV_BricksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B49541E6893020040BD4B /* UNLV_BricksUITests.swift */; };
-		90A3CD0D1E6B705900F1548B /* game_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CD0C1E6B705900F1548B /* game_music.mp3 */; };
-		90A3CD101E6B738100F1548B /* lose_live.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CD0F1E6B738100F1548B /* lose_live.wav */; };
-		90A3CD121E6B738C00F1548B /* break.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CD111E6B738C00F1548B /* break.wav */; };
-		90A3CD1A1E6B762500F1548B /* paddle_hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CD191E6B762500F1548B /* paddle_hit.wav */; };
-		90D2874E1E6B575C00F6AB33 /* BrokenPlatform.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90D2874D1E6B575C00F6AB33 /* BrokenPlatform.sks */; };
-		90D287501E6B58F300F6AB33 /* BallTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90D2874F1E6B58F300F6AB33 /* BallTrail.sks */; };
-		90D287521E6B591600F6AB33 /* BrokenTest.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90D287511E6B591600F6AB33 /* BrokenTest.sks */; };
+		90EDA9221E6F548000CB7194 /* game_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA9211E6F548000CB7194 /* game_music.mp3 */; };
+		90EDA9251E6F54BA00CB7194 /* break.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA9231E6F54BA00CB7194 /* break.wav */; };
+		90EDA9261E6F54BA00CB7194 /* lose_live.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA9241E6F54BA00CB7194 /* lose_live.wav */; };
+		90EDA9281E6F54C100CB7194 /* paddle_hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA9271E6F54C100CB7194 /* paddle_hit.wav */; };
+		90EDA92C1E6F552D00CB7194 /* BallTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA92B1E6F552D00CB7194 /* BallTrail.sks */; };
+		90EDA92E1E6F558700CB7194 /* BrokenPlatform.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90EDA92D1E6F558700CB7194 /* BrokenPlatform.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +59,12 @@
 		903B49501E6893020040BD4B /* UNLV_BricksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNLV_BricksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		903B49541E6893020040BD4B /* UNLV_BricksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNLV_BricksUITests.swift; sourceTree = "<group>"; };
 		903B49561E6893020040BD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90A3CD0C1E6B705900F1548B /* game_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = game_music.mp3; path = ../../game_music.mp3; sourceTree = "<group>"; };
-		90A3CD0F1E6B738100F1548B /* lose_live.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lose_live.wav; path = ../../lose_live.wav; sourceTree = "<group>"; };
-		90A3CD111E6B738C00F1548B /* break.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = break.wav; path = ../../break.wav; sourceTree = "<group>"; };
-		90A3CD191E6B762500F1548B /* paddle_hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = paddle_hit.wav; path = ../../paddle_hit.wav; sourceTree = "<group>"; };
-		90D2874D1E6B575C00F6AB33 /* BrokenPlatform.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BrokenPlatform.sks; path = "../../Bamboo Breakout Final 2/Bamboo Breakout/Particles/BrokenPlatform.sks"; sourceTree = "<group>"; };
-		90D2874F1E6B58F300F6AB33 /* BallTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BallTrail.sks; path = "../../Bamboo Breakout Final 2/Bamboo Breakout/Particles/BallTrail.sks"; sourceTree = "<group>"; };
-		90D287511E6B591600F6AB33 /* BrokenTest.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BrokenTest.sks; sourceTree = "<group>"; };
+		90EDA9211E6F548000CB7194 /* game_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_music.mp3; sourceTree = "<group>"; };
+		90EDA9231E6F54BA00CB7194 /* break.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = break.wav; sourceTree = "<group>"; };
+		90EDA9241E6F54BA00CB7194 /* lose_live.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose_live.wav; sourceTree = "<group>"; };
+		90EDA9271E6F54C100CB7194 /* paddle_hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = paddle_hit.wav; sourceTree = "<group>"; };
+		90EDA92B1E6F552D00CB7194 /* BallTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTrail.sks; sourceTree = "<group>"; };
+		90EDA92D1E6F558700CB7194 /* BrokenPlatform.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BrokenPlatform.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				90A3CD0E1E6B737100F1548B /* Sounds */,
-				90D2874D1E6B575C00F6AB33 /* BrokenPlatform.sks */,
-				90D2874F1E6B58F300F6AB33 /* BallTrail.sks */,
-				90D287511E6B591600F6AB33 /* BrokenTest.sks */,
+				90EDA92D1E6F558700CB7194 /* BrokenPlatform.sks */,
+				90EDA92B1E6F552D00CB7194 /* BallTrail.sks */,
 				903B492E1E6893010040BD4B /* AppDelegate.swift */,
 				903B49301E6893010040BD4B /* GameScene.sks */,
 				903B49321E6893010040BD4B /* Actions.sks */,
@@ -155,10 +152,10 @@
 		90A3CD0E1E6B737100F1548B /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				90A3CD0C1E6B705900F1548B /* game_music.mp3 */,
-				90A3CD0F1E6B738100F1548B /* lose_live.wav */,
-				90A3CD111E6B738C00F1548B /* break.wav */,
-				90A3CD191E6B762500F1548B /* paddle_hit.wav */,
+				90EDA9211E6F548000CB7194 /* game_music.mp3 */,
+				90EDA9231E6F54BA00CB7194 /* break.wav */,
+				90EDA9241E6F54BA00CB7194 /* lose_live.wav */,
+				90EDA9271E6F54C100CB7194 /* paddle_hit.wav */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -270,17 +267,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EDA9251E6F54BA00CB7194 /* break.wav in Resources */,
 				903B493A1E6893010040BD4B /* Main.storyboard in Resources */,
-				90D2874E1E6B575C00F6AB33 /* BrokenPlatform.sks in Resources */,
+				90EDA9261E6F54BA00CB7194 /* lose_live.wav in Resources */,
+				90EDA9281E6F54C100CB7194 /* paddle_hit.wav in Resources */,
+				90EDA92C1E6F552D00CB7194 /* BallTrail.sks in Resources */,
 				903B49311E6893010040BD4B /* GameScene.sks in Resources */,
+				90EDA9221E6F548000CB7194 /* game_music.mp3 in Resources */,
+				90EDA92E1E6F558700CB7194 /* BrokenPlatform.sks in Resources */,
 				903B493C1E6893010040BD4B /* Assets.xcassets in Resources */,
-				90A3CD1A1E6B762500F1548B /* paddle_hit.wav in Resources */,
-				90D287501E6B58F300F6AB33 /* BallTrail.sks in Resources */,
-				90A3CD121E6B738C00F1548B /* break.wav in Resources */,
-				90A3CD101E6B738100F1548B /* lose_live.wav in Resources */,
 				903B493F1E6893010040BD4B /* LaunchScreen.storyboard in Resources */,
-				90A3CD0D1E6B705900F1548B /* game_music.mp3 in Resources */,
-				90D287521E6B591600F6AB33 /* BrokenTest.sks in Resources */,
 				903B49331E6893010040BD4B /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
